@@ -1,8 +1,21 @@
-# React + Vite
+Project_Name:Hotel Comfort 
+live_site:https://hotel-booking-cd63e.web.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project_feature
 
-Currently, two official plugins are available:
+* You can booking a room any time.
+* your booking info no one can see
+* you can delete your booking
+* also edit your booking info
+* if no one login then he cannot access other private route
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Project_technology_uses
+
+* Firebase
+* Context
+* react-router-dom
+* react-helmet
+* react-awesome-slider
+* moment js
+* DatePicker etc....
