@@ -62,61 +62,7 @@ const navigate=useNavigate()
     
   };
 
-  // google sigin
-  
-  // const handleSignup = async (data) => {
- 
-  //   console.log(res)
 
-  //   // if (res.data.success) {
-  //   //   createUser(data.email, data.password)
-  //   //   .then((result) => {
-  //   //     const photoURL = res.data.data.display_url;
-  //   //     //    const number=parseInt(data.number)
-
-  //   //     // updateUser(data.name, photoURL).then(() => {
-  //   //     //   const userInfo={
-  //   //     //     user:data.name,
-  //   //     //     email:data.email,
-  //   //     //     role:'employee'
-  //   //     //   }
-  //   //     //   publicSecure.post('/users',userInfo)
-  //   //     //   .then(()=>{
-  //   //     //     sendEmailVerification(result.user)
-  //   //     //   .then(()=>{
-  //   //     //     Swal.fire({
-  //   //     //       position: "center",
-  //   //     //       icon: "success",
-  //   //     //       title: "user successfully signup",
-  //   //     //       showConfirmButton: false,
-  //   //     //       timer: 1000,
-  //   //     //     });
-            
-
-  //   //     //   })
-  //   //     //   })
-         
-         
-          
-          
-  //   //     // })
-  //   //     // reset();
-  //   //     console.log(result.user);
-  //   //   })
-  //   //   .catch(err=>
-  //   //     {
-  //   //       Swal.fire({
-  //   //         position: "center",
-  //   //         icon: "error",
-  //   //         title:(err.message),
-  //   //         showConfirmButton: false,
-  //   //         timer: 2000,
-  //   //       });
-  //   //     }
-  //   //      )
-  //   // }
-  // };
-  
   const handleGoogle=()=>{
     googleSignin()
     .then(result=>{

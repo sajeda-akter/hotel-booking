@@ -40,12 +40,7 @@ reset()
     const handleGoogle=()=>{
       googleSignin()
       .then(result=>{
-    
-        // const user={email:result.user.email}
-        // axios.post('https://assignment-category-0004-server.vercel.app/jwt',user,{withCredentials:true})
-        // .then(res=>{
-        //   console.log(res.data)
-        // })
+  
       })
       .catch(err=>console.log(err))
     }
